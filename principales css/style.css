@@ -1,0 +1,54 @@
+/*Selector {
+property: value;
+}*/
+/* * es para toda la pagina  todos lod elementos en este caso
+solo se movio donde esta home about y login porque lo demas
+ya esta editado y como es en cascada solo toma las etiquetas
+que aun no tienen propiedades */
+*{
+  text-align: right;
+}
+body{
+  background-image: url(https://www.wikihow.com/images/thumb/c/c4/Make-Your-School-Uniform-More-Kawaii-%28Anime-Styled%29-Step-15.jpg/aid5618068-v4-728px-Make-Your-School-Uniform-More-Kawaii-%28Anime-Styled%29-Step-15.jpg);
+  background-size:1000px;
+
+}
+h2{
+  color: red;
+  text-align: center;
+  /*linea punteada (dashed)
+  linea normal (solid)*/
+  border: 3px dashed purple;
+/*cursor es para elegir eltipo de cursor que se va a utilizar al
+pazar por este texto en este caso home*/
+  cursor: pointer;
+}
+p {
+  color: green;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+/*webtext es para la linea al rededor de el texto en este caso
+al rededorde lorem ipsum*/
+/*.webtext y .active son clases es para darle mayor
+personalizacion*/
+.webtext{
+  border:2px dashed red;
+  text-align: center;
+}
+.active{
+ color: blue;
+}
+/* en caso de #div1 o 2 es para personalizar los div de
+acuerdo con su id*/
+/* en los colores rgba contiene rojo verde azul y la
+opacidad de los colores seleccionados*/
+#div1{
+  background-color: rgba(0,0,255,0.2);
+}
+#div2{
+  background-color: rgba(255,0,0,0.2);
+
+}

@@ -1,0 +1,27 @@
+CSS CHEAT SHEET
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it
+indicates that the order of CSS rules matter.
+
+.class
+#id
+*
+element
+element, element /* este es usado para poner las mismas propiedades a dos diferentes etiquetas*/
+element element /*este se usa para aquellos que tengan combinados sus dos elementos por ejemplo <h2> home <p>gnome</p> </h2>*/
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!importan (not recommended)
+
+
+What selectors win out in the cascade depends on:
+-Specifity
+-Importance
+-Sourse Order
