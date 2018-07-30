@@ -10,7 +10,14 @@ h1 {
   width: 400px;
   box-shadow: 4px 5px 4px #888888; /*pone sombra al cuadro de texto*/
   margin-top: 10px;
-}
+  -moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+  /*lo anterior es para los diferentes navegadores que existen*/
+  }
 .container {
 display: flex;
 flex-wrap: wrap;
