@@ -1,0 +1,12 @@
+.btn-danger {
+  background-color: black;
+}
+.btn-outline-success{
+  background-color: black;
+}
+.btn-outline-success:hover{
+  background-color: pink;
+}
+.btn-primary {
+background-color: yellow;
+}
