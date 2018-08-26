@@ -1,0 +1,30 @@
+body {
+  background-image: url(bg-09.jpg);
+}
+.menu{
+
+}
+.container {
+text-align:rigth;
+color:white;
+}
+.sponsor{
+  text-align: center;
+  color: #62f1d2;
+}
+.blue{
+  color: #62f1d2;
+}
+.tickets{
+  color:#fa2e70;
+}
+.triangulo {
+  color: white;
+  text-shadow:1px 1px 1px red;
+}
+.white {
+  color: white;
+}
+.bg-white {
+  background-color:transparent;
+}
