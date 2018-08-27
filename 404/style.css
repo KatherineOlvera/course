@@ -27,4 +27,9 @@ color:white;
 }
 .bg-white {
   background-color:transparent;
+  color:white;
+  padding:10px;
+  border:1px solid #62f1d2;
+  border-radius: 5px;
+  text-decoration: none;
 }
